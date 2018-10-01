@@ -1,0 +1,148 @@
+[2018-06-02 18:01:31 pyframe.core     INFO   ]  EventLoop.run: ssdilep.test
+[2018-06-02 18:01:31 pyframe.core     INFO   ]  initialized ListBuilder
+[2018-06-02 18:01:31 pyframe.core     INFO   ]  initialized AttachTLVs
+[2018-06-02 18:01:31 ssdilep.algs.vars INFO   ]  initialize single particles for muons ...
+[2018-06-02 18:01:31 pyframe.core     INFO   ]  initialized ParticlesBuilder
+[2018-06-02 18:01:31 ssdilep.algs.vars INFO   ]  initialize single particles for electrons ...
+[2018-06-02 18:01:31 pyframe.core     INFO   ]  initialized ParticlesBuilder
+[2018-06-02 18:01:31 ssdilep.algs.vars INFO   ]  initialize single particles for taus ...
+[2018-06-02 18:01:31 pyframe.core     INFO   ]  initialized ParticlesBuilder
+[2018-06-02 18:01:31 ssdilep.algs.met INFO   ]  initialized METTRK
+[2018-06-02 18:01:31 pyframe.core     INFO   ]  initialized METTRK
+[2018-06-02 18:01:31 pyframe.core     INFO   ]  initialized CutFlowAlg.presel
+[2018-06-02 18:01:31 pyframe.core     INFO   ]  initialized Pileup
+[2018-06-02 18:01:31 pyframe.core     INFO   ]  initialized DiLeptonVars
+[2018-06-02 18:01:31 pyframe.core     INFO   ]  initialized DiLeptonVars
+[2018-06-02 18:01:31 pyframe.core     INFO   ]  initialized TauMuVars
+[2018-06-02 18:01:31 pyframe.core     INFO   ]  initialized PlotAlg
+[2018-06-02 18:01:31 pyframe.core     INFO   ]  initialized PlotAlg
+[2018-06-02 18:01:31 pyframe.core     INFO   ]  initialized PlotAlg
+[2018-06-02 18:01:31 pyframe.core     INFO   ]  initialized HistCopyAlg
+[2018-06-02 18:04:04 pyframe.core     INFO   ]  finalized ListBuilder
+[2018-06-02 18:04:04 pyframe.core     INFO   ]  finalized AttachTLVs
+[2018-06-02 18:04:04 pyframe.core     INFO   ]  finalized ParticlesBuilder
+[2018-06-02 18:04:04 pyframe.core     INFO   ]  finalized ParticlesBuilder
+[2018-06-02 18:04:04 pyframe.core     INFO   ]  finalized ParticlesBuilder
+[2018-06-02 18:04:04 pyframe.core     INFO   ]  finalized METTRK
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]  CUTFLOW: presel
+  # CUT                                                   RAW             FRAC         WEIGHTED             FRAC    ERR
+00 all                                                 49725            1.000          49725.0            1.000  223.0
+01 Pileup                                              49725            1.000          49725.6            1.000  233.5
+
+
+[2018-06-02 18:04:04 pyframe.core     INFO   ]  finalized CutFlowAlg.presel
+[2018-06-02 18:04:04 pyframe.core     INFO   ]  finalized Pileup
+[2018-06-02 18:04:04 pyframe.core     INFO   ]  finalized DiLeptonVars
+[2018-06-02 18:04:04 pyframe.core     INFO   ]  finalized DiLeptonVars
+[2018-06-02 18:04:04 pyframe.core     INFO   ]  finalized TauMuVars
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]  CUTFLOW: FourLeptons
+  # CUT                                                   RAW             FRAC         WEIGHTED             FRAC    ERR
+00 all                                                 49725            1.000          49725.6            1.000  233.5
+01 noCut                                               49725            1.000          49725.6            1.000  233.5
+02 MultiLeptondPhiMoreThan005Pi                            0            0.000              0.0            0.000    0.0
+
+
+[2018-06-02 18:04:04 pyframe.core     INFO   ]  finalized PlotAlg
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]  CUTFLOW: TwoLeptons
+  # CUT                                                   RAW             FRAC         WEIGHTED             FRAC    ERR
+00 all                                                 49725            1.000          49725.6            1.000  233.5
+01 noCut                                               49725            1.000          49725.6            1.000  233.5
+02 diLeptondPhiMoreThan005Pi                           38196            0.768          38176.8            0.768  204.5
+
+
+[2018-06-02 18:04:04 pyframe.core     INFO   ]  finalized PlotAlg
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]  CUTFLOW: SignalComparison
+  # CUT                                                   RAW             FRAC         WEIGHTED             FRAC    ERR
+00 all                                                 49725            1.000          49725.6            1.000  233.5
+01 noCut                                               49725            1.000          49725.6            1.000  233.5
+
+
+[2018-06-02 18:04:04 pyframe.core     INFO   ]  finalized PlotAlg
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]  Saving histograms from input files.
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /MetaData_EventCount
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /cutflow
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /cutflow_electrons_1
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /cutflow_electrons_2
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /cutflow_jets_1
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /cutflow_muons_1
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /cutflow_muons_2
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /cutflow_photons_1
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /cutflow_taus_1
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /cutflow_taus_2
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /cutflow_trks_1
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /cutflow_truths_1
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /cutflow_weighted
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /systematics/BJetEfficiency_Algo_MV2c10_FixedCutBEff_70
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /systematics/BJetEfficiency_Algo_MV2c10_FixedCutBEff_77
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /systematics/BJetEfficiency_Algo_MV2c10_FixedCutBEff_85
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /systematics/EleEffCorr_IsoSyst_MediumLLH_isolLoose
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /systematics/EleEffCorr_PIDSyst_LooseAndBLayerLLH
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /systematics/EleEffCorr_PIDSyst_MediumLLH
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /systematics/EleEffCorr_RecoSyst
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /systematics/JetJvtEfficiency_JVTSyst_JVT_Medium
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /systematics/JetJvtEfficiency_fJVTSyst_fJVT_Medium
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /systematics/MuonEfficiencyCorrector_IsoSyst_IsoFixedCutTightTrackOnly
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /systematics/MuonEfficiencyCorrector_RecoSyst_RecoMedium
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /systematics/MuonEfficiencyCorrector_TTVASyst_TTVA
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /systematics/MuonEfficiencyCorrector_TrigSyst_RecoMedium_IsoFixedCutTightTrackOnly
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /systematics/electronCalib
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /systematics/jetCalib_AntiKt4EMTopo
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /systematics/met
+[2018-06-02 18:04:04 pyframe.algs     INFO   ]    /systematics/muonCalib
+[2018-06-02 18:04:04 pyframe.core     INFO   ]  finalized HistCopyAlg
+[2018-06-02 18:04:04 pyframe.core     INFO   ]  ALGORITHM TIME SUMMARY
+
+  # ALGORITHM                                TIME [s]    CALLS  RATE [Hz] FRACTION
+ ------------------------- initialize --------------------------------------------
+    Sum                                          0.00        1     4734.0    1.000
+  0 ListBuilder                                  0.00        1   246723.8    0.019
+  1 AttachTLVs                                   0.00        1   466033.8    0.010
+  2 ParticlesBuilder                             0.00        1    23831.3    0.199
+  3 ParticlesBuilder                             0.00        1    23831.3    0.199
+  4 ParticlesBuilder                             0.00        1    23831.3    0.199
+  5 METTRK                                       0.00        1    20460.0    0.231
+  6 CutFlowAlg.presel                            0.00        1   199728.8    0.024
+  7 Pileup                                       0.00        1   524288.0    0.009
+  8 DiLeptonVars                                 0.00        1   466033.8    0.010
+  9 DiLeptonVars                                 0.00        1   466033.8    0.010
+ 10 TauMuVars                                    0.00        1   466033.8    0.010
+ 11 PlotAlg                                      0.00        1   199728.8    0.024
+ 12 PlotAlg                                      0.00        1   199728.8    0.024
+ 13 PlotAlg                                      0.00        1   199728.8    0.024
+ 14 HistCopyAlg                                  0.00        1   524288.0    0.009
+ ------------------------- execute -----------------------------------------------
+    Sum                                        347.83    49725      143.0    1.000
+  0 ListBuilder                                  6.43    49725     7731.5    0.018
+  1 AttachTLVs                                  19.90    49725     2499.0    0.057
+  2 ParticlesBuilder                             4.64   149175    32131.4    0.013
+  3 ParticlesBuilder                             4.64   149175    32131.4    0.013
+  4 ParticlesBuilder                             4.64   149175    32131.4    0.013
+  5 METTRK                                       5.06    49725     9834.7    0.015
+  6 CutFlowAlg.presel                            0.97    49725    51167.3    0.003
+  7 Pileup                                       1.29    49725    38417.5    0.004
+  8 DiLeptonVars                                 8.72    99450    11406.6    0.025
+  9 DiLeptonVars                                 8.72    99450    11406.6    0.025
+ 10 TauMuVars                                    1.07    49725    46636.2    0.003
+ 11 PlotAlg                                     93.89   149175     1588.8    0.270
+ 12 PlotAlg                                     93.89   149175     1588.8    0.270
+ 13 PlotAlg                                     93.89   149175     1588.8    0.270
+ 14 HistCopyAlg                                  0.08    49725   651197.9    0.000
+ ------------------------- finalize ----------------------------------------------
+    Sum                                          0.16        1        6.3    1.000
+  0 ListBuilder                                  0.00        1    99864.4    0.000
+  1 AttachTLVs                                   0.00        1   322638.8    0.000
+  2 ParticlesBuilder                             0.00        1  1048576.0    0.000
+  3 ParticlesBuilder                             0.00        1  1048576.0    0.000
+  4 ParticlesBuilder                             0.00        1  1048576.0    0.000
+  5 METTRK                                       0.00        1   110376.4    0.000
+  6 CutFlowAlg.presel                            0.05        1       21.1    0.297
+  7 Pileup                                       0.00        1    99864.4    0.000
+  8 DiLeptonVars                                 0.00        1  1048576.0    0.000
+  9 DiLeptonVars                                 0.00        1  1048576.0    0.000
+ 10 TauMuVars                                    0.00        1   524288.0    0.000
+ 11 PlotAlg                                      0.00        1     3581.8    0.002
+ 12 PlotAlg                                      0.00        1     3581.8    0.002
+ 13 PlotAlg                                      0.00        1     3581.8    0.002
+ 14 HistCopyAlg                                  0.11        1        9.0    0.698
+
+[2018-06-02 18:04:04 pyframe.core     INFO   ]  Writing histograms to ntuple_signal_tau_fast.root

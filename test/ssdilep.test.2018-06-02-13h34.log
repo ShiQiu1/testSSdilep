@@ -1,0 +1,20 @@
+[2018-06-02 13:34:02 pyframe.core     INFO   ]  EventLoop.run: ssdilep.test
+[2018-06-02 13:34:02 pyframe.core     INFO   ]  initialized ListBuilder
+[2018-06-02 13:34:02 pyframe.core     INFO   ]  initialized AttachTLVs
+[2018-06-02 13:34:02 ssdilep.algs.vars INFO   ]  initialize single particles for muons ...
+[2018-06-02 13:34:02 pyframe.core     INFO   ]  initialized ParticlesBuilder
+[2018-06-02 13:34:02 ssdilep.algs.vars INFO   ]  initialize single particles for electrons ...
+[2018-06-02 13:34:02 pyframe.core     INFO   ]  initialized ParticlesBuilder
+[2018-06-02 13:34:02 ssdilep.algs.vars INFO   ]  initialize single particles for taus ...
+[2018-06-02 13:34:02 pyframe.core     INFO   ]  initialized ParticlesBuilder
+[2018-06-02 13:34:02 ssdilep.algs.met INFO   ]  initialized METTRK
+[2018-06-02 13:34:02 pyframe.core     INFO   ]  initialized METTRK
+[2018-06-02 13:34:02 pyframe.core     INFO   ]  initialized CutFlowAlg.presel
+[2018-06-02 13:34:02 pyframe.core     INFO   ]  initialized Pileup
+[2018-06-02 13:34:02 pyframe.core     INFO   ]  initialized DiLeptonVars
+[2018-06-02 13:34:02 pyframe.core     INFO   ]  initialized DiLeptonVars
+[2018-06-02 13:34:02 pyframe.core     INFO   ]  initialized TauMuVars
+[2018-06-02 13:34:02 pyframe.core     INFO   ]  initialized PlotAlg
+[2018-06-02 13:34:02 pyframe.core     INFO   ]  initialized PlotAlg
+[2018-06-02 13:34:02 pyframe.core     INFO   ]  initialized PlotAlg
+[2018-06-02 13:34:02 pyframe.core     INFO   ]  initialized HistCopyAlg
