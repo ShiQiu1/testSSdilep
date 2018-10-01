@@ -1,0 +1,20 @@
+How to use the charge flip script
+
+1) Input
+
+The charge flip script takes as input four one dimensional histograms consisting of the "charge flip variable", which is a mapping of the 4d plot consisting of the eta and Pt of the leading and subleading lepton in a dilepton event. 
+
+For Electrons this variable is calculated by ssdilep.algs.vars.DiEle_chargeflip_Vars and plotted by ssdilep.hists.EleCF_hists.hist_list. 
+For Taus this variable is calculated by ssdilep.algs.vars.DiTau_chargeflip_Vars and plotted by ssdilep.hists.TauCF_hists.hist_list.
+
+The function charge_flip_measurment() in charge_flip_measurement.C has filepaths hardcoded (ugly, I know) to these histograms. File paths to a ROOT file with charge flip variable histograms from the dilepton anysign Z-peak, its sidebands, the dilepton samesign Z-peak and its sidebands. This must be provided for both data and MC, meaning 8 histograms and their full file paths is needed for the script to give the correct output.
+
+The naming of these histograms depend on the Merged Framework algorithms, but can be easily checked by looking at the ntuple containing the input histogram using the ROOT Tbrowser, for example. 
+
+2) Running the script
+
+	a) Start ROOT in the "Charge flip rate script" folder. The rootlogon.C will automatically compile the script and its dependancies
+	b) In ROOT, run the script charge_flip_measurment(). It will give written output if it can or cannot find the input histograms
+	c) After letting the minimazion algorithm work, a .root file containing the resulting charge flip rate diagrams for data and MC will be created in the current folder, and some plots will be created as well.
+	
+3) Versions	          
